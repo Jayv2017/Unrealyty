@@ -1,0 +1,407 @@
+body {
+    font-family: tahoma;
+    height: 100vh;
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: #000;
+    perspective: 340px;
+  }
+  
+  .stars {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 2px;
+    box-shadow: 1022px 305px #e3e3e3, 395px -64px #dbdbdb, -952px 253px #c2c2c2, -753px -37px #d1d1d1, -43px -325px #ebebeb, -114px 225px #e8e8e8, 1114px 415px #dbdbdb, 542px 149px #e6e6e6, -1478px 30px #d4d4d4, 403px 189px #f2f2f2, 75px -56px #f7f7f7, 335px -274px #dbdbdb, 336px 142px #c2c2c2, 77px 336px #f2f2f2, 975px -364px #c7c7c7, 962px -119px white, 578px -406px #f0f0f0, -55px 127px #e8e8e8, -756px 385px #ebebeb, -532px 333px #d6d6d6, -775px 347px #cccccc, -577px -287px #f0f0f0, 1246px -393px #d9d9d9, -188px -133px #cfcfcf, 1051px -405px #e0e0e0, 908px -5px #d6d6d6, -1065px -82px #f7f7f7, -281px -141px #ededed, -1311px -470px #f2f2f2, 77px 69px #e8e8e8, -443px 28px #d6d6d6, -1123px -446px #d9d9d9, -1153px 180px #fafafa, 1491px 217px #ededed, -171px -81px #d1d1d1, -1064px 309px #d9d9d9, -1461px 166px #d1d1d1, -1024px -127px #dbdbdb, -854px 133px #e6e6e6, 1439px 134px #f2f2f2, 634px -60px #d4d4d4, -61px -133px #f2f2f2, -1240px -2px #e3e3e3, -1039px 376px #f0f0f0, 1012px -61px #dedede, -1303px 238px #c9c9c9, -163px -281px #fcfcfc, -302px -408px #c2c2c2, -891px -36px #ebebeb, -1177px 133px #d9d9d9, 894px 330px #f7f7f7, -875px 190px #c4c4c4, -1147px -358px #e8e8e8, 1034px 12px #c2c2c2, -1463px -369px #fafafa, -189px 397px #ebebeb, 1141px 406px #e8e8e8, 828px 258px #e3e3e3, -946px 202px #e0e0e0, -991px -244px #ededed, -67px 91px #dbdbdb, -799px 71px #d9d9d9, 1471px 210px #d6d6d6, -1318px 238px #c9c9c9, 907px 423px #e8e8e8, -193px -60px #ededed, 1206px -136px #ededed, 234px 183px #d4d4d4, 916px 78px #dedede, -1230px -73px #c4c4c4, -8px 55px #dbdbdb, -1430px 325px #cfcfcf, -840px -454px #f2f2f2, -1175px 67px #dbdbdb, 77px 441px #c9c9c9, 874px -384px #c9c9c9, 168px 116px #f7f7f7, 1098px -362px #f7f7f7, 8px 108px white, 435px -54px #c9c9c9, -202px 268px white, 692px -101px whitesmoke, -198px 314px #c2c2c2, -1178px -298px #c4c4c4, 1492px 263px #dedede, -1355px 101px #d6d6d6, -1359px 444px #ededed, 1153px 475px #c9c9c9, -792px 357px #cccccc, 1313px -6px #dedede, -1191px 299px #d4d4d4, 51px 220px #d9d9d9, 281px 256px #e0e0e0, -239px -384px #f2f2f2, 545px -184px #d9d9d9, 183px -406px #c7c7c7, 763px -241px #d4d4d4, -1245px -213px #e6e6e6, 909px -76px #e6e6e6, 1027px 208px white, 251px -17px #ededed, 1107px 460px #cfcfcf, -997px -314px whitesmoke, -160px -449px #c9c9c9, 698px -415px #e6e6e6, -1394px -350px #e0e0e0, 499px 285px #e0e0e0, -748px 252px whitesmoke, 210px -202px #d4d4d4, 144px -444px #f2f2f2, -323px -368px #f0f0f0, -884px 91px #cfcfcf, -670px -359px #e6e6e6, -295px -26px #e0e0e0, 1170px -402px #ebebeb, -985px -332px #c4c4c4, 489px -19px #d4d4d4, 1062px 371px white, -919px 255px #d6d6d6, 1030px 356px #ebebeb, -739px -126px #cccccc, -337px -463px #c7c7c7, -1008px -304px whitesmoke, 270px 287px #c7c7c7, -1223px -207px #dedede, -876px 233px #d1d1d1, 478px 184px #e6e6e6, 369px -107px white, -67px 292px #f7f7f7, 459px 79px #fafafa, -739px -161px #ededed, 660px 282px #fcfcfc, 1125px -338px #d9d9d9, -1311px 471px #d1d1d1, -502px 0px #ebebeb, 65px 397px #dbdbdb, 1201px 382px #f7f7f7, -1281px 197px #e8e8e8, -714px 431px #d1d1d1, 980px 75px #c7c7c7, 1176px 349px #ededed, -966px 36px #ebebeb, -594px -380px #d6d6d6, -31px 107px #d4d4d4, 753px -41px #c7c7c7, 343px -471px #e8e8e8, 1312px -185px #c4c4c4, -1032px -257px #f2f2f2, 537px 262px white, 829px 348px #f2f2f2, -195px 127px #cccccc, -1218px -29px #c4c4c4, 641px -28px whitesmoke, 1275px -143px #dedede, 1064px -58px #cccccc, 34px -423px #d1d1d1, 1211px -9px #e6e6e6, 1480px 392px #d4d4d4, -456px 472px #e3e3e3, 1062px -34px #c7c7c7, 1048px 289px #e0e0e0, 1203px 436px #f7f7f7, 241px -80px #ebebeb, -128px 176px #d6d6d6, 1291px 400px #ededed, -1169px 8px #d4d4d4, -156px -437px #c9c9c9, -516px -295px #dedede, -509px 374px #f0f0f0, -214px 449px #fcfcfc, -227px 419px #f0f0f0, 399px -139px #fcfcfc, -936px -33px #f7f7f7, -468px -95px #fcfcfc, 895px 173px #d6d6d6, 1282px -184px #d6d6d6, 1127px 334px whitesmoke, 1476px -287px #e0e0e0, 1298px -302px #cfcfcf, 84px -180px #dbdbdb, -758px -116px #f0f0f0, -1120px 293px #e0e0e0, 980px -250px #d1d1d1, 888px 259px #d4d4d4, 1150px 258px white, -778px -126px #fafafa, 266px -428px #f7f7f7, 91px 408px #c2c2c2, -85px -223px #dedede, -1349px 291px #c2c2c2, 578px -462px #dedede, -1398px 188px #fafafa, -1242px 14px #fcfcfc, 554px 174px #f0f0f0, 889px -198px #c7c7c7, -1428px 87px #cccccc, 551px -19px #e0e0e0, -1095px 99px #e3e3e3, 754px 332px white, -1060px -392px #ededed, -379px 301px #d6d6d6, 1113px 44px whitesmoke, 839px 238px #c9c9c9, 232px 207px #f7f7f7, 878px 359px #d6d6d6, -1069px -376px #cfcfcf, 1059px 373px white, 273px -358px #e0e0e0, 1140px 335px whitesmoke, -272px 466px #fcfcfc, -1064px -418px #c7c7c7, -282px 442px #dedede, -533px -379px #e8e8e8, -925px -422px white, -1175px 327px #cfcfcf, 1169px -221px #cfcfcf, 47px -325px #e3e3e3, -343px -206px #ebebeb, 1155px -149px #f2f2f2, 243px 452px #e3e3e3, -1418px 259px #d6d6d6, -527px -422px #d9d9d9, -908px 459px #d1d1d1, -1361px -213px #fafafa, 1011px 380px #e0e0e0, -1391px -156px #cfcfcf, 517px -247px #d6d6d6, 1003px 24px #fafafa, -866px -390px #ebebeb, 279px -206px #c7c7c7, 850px 195px #d9d9d9, -589px -265px #c4c4c4, -782px -305px #e6e6e6, 1408px 419px #d9d9d9, 768px 29px #dbdbdb, -1040px 387px #fcfcfc, 805px -200px #e0e0e0, -1313px -344px #c2c2c2, 125px -214px #c4c4c4, -671px -117px #cfcfcf, 590px 283px whitesmoke, 595px -198px #d9d9d9, -843px -87px #dbdbdb, -536px 290px #d9d9d9, 1152px 401px #d4d4d4, 677px -47px #f2f2f2, -447px -273px #fafafa, 1447px 198px #e6e6e6, -77px 179px #f2f2f2, -1337px 288px whitesmoke, 5px 476px white, 474px -336px #fcfcfc, -70px -402px #e3e3e3, -988px 217px #f0f0f0, 1227px 386px #e3e3e3, -125px -14px whitesmoke, 68px 462px #ededed, 496px 8px #f0f0f0, -751px -167px whitesmoke, -98px -327px whitesmoke, 1358px 27px #c9c9c9, -953px -372px #dedede, 132px -259px #fcfcfc, 56px -176px #c4c4c4, -780px -466px #ebebeb, 518px -240px #cccccc, 666px -338px #d6d6d6, 1138px 300px #cfcfcf, -1496px 408px #e6e6e6, -1354px -295px #dedede, -1404px 363px #e8e8e8, -949px -13px #cccccc, -282px -5px #dbdbdb, -1147px 72px #dedede, -983px 135px white, -249px 77px #d1d1d1, 1401px 328px #d1d1d1, -701px 208px #e0e0e0, 771px 219px #f2f2f2, -1039px -42px #dbdbdb, 1410px 474px #f7f7f7, 1158px -116px #dedede, 939px -349px #cccccc, -292px -123px #dbdbdb, 386px -418px #f2f2f2, 286px 1px #d9d9d9, 1402px 269px white, -36px 342px #c7c7c7, -1224px 341px #f2f2f2, -1215px -466px #c7c7c7, 581px -402px white, -1141px 205px whitesmoke, 309px 51px #ededed, -230px 13px #cccccc, 1381px -109px #c2c2c2, -282px 414px #f7f7f7, -881px -141px #c7c7c7, -821px -418px #d1d1d1, 644px -372px #dedede, -557px 461px #fcfcfc, -563px 2px #e6e6e6, -217px -358px #fafafa, 896px 259px #d9d9d9, 836px 136px #f2f2f2, -85px 413px #fcfcfc, -1141px -21px #cccccc, -1322px -385px #f2f2f2, -561px -132px #c4c4c4, 1339px -392px #c2c2c2, -1444px -86px #f0f0f0, -240px -334px #dbdbdb, -685px 468px #e0e0e0, -986px 32px #e3e3e3, 1414px -74px whitesmoke, 183px -299px #d9d9d9, 248px -462px #cfcfcf, 839px 231px #dbdbdb, -816px -282px #f2f2f2, -561px 448px #fcfcfc, -1343px -276px #e6e6e6, -906px 111px #f0f0f0, 1009px -130px #e8e8e8, 1331px -141px #ebebeb, -313px -326px #e3e3e3, 169px -474px #ebebeb, -40px -343px #d1d1d1, -426px 40px #c2c2c2, -1475px 165px #dedede, 1380px -182px #c2c2c2, -1127px 137px #fafafa, 969px -83px #fcfcfc, -570px 194px #dbdbdb, 242px -150px #fcfcfc, 1055px -19px #e8e8e8, 789px -7px #e3e3e3, 1432px 188px #c2c2c2, 1202px -98px #e0e0e0, -221px 109px #ebebeb, 1452px 470px #fafafa, -763px -401px #e0e0e0, -555px -330px #f0f0f0, 132px -298px #d6d6d6, -781px -149px #d4d4d4, 1330px -362px #e8e8e8, -370px -368px #cccccc, 30px 451px #fcfcfc, 776px -109px white, 68px 198px #fcfcfc, 618px 210px #e6e6e6, -385px 332px #dedede, 336px -198px #d9d9d9;
+    animation: fly 3s linear infinite;
+    transform-style: preserve-3d;
+  }
+  .stars:before, .stars:after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    box-shadow: inherit;
+  }
+  .stars:before {
+    transform: translateZ(-300px);
+    animation: fade1 3s linear infinite;
+  }
+  .stars:after {
+    transform: translateZ(-600px);
+    animation: fade2 3s linear infinite;
+  }
+  
+  @keyframes fly {
+    from {
+      transform: translateZ(0px);
+    }
+    to {
+      transform: translateZ(300px);
+    }
+  }
+  @keyframes fade1 {
+    from {
+      opacity: .5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade2 {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: .5;
+    }
+  }
+  
+  
+
+  /************************************************************************************************/
+/**************************************NAVBAR***************************************************/
+/************************************************************************************************/
+.logo img{
+    position:absolute;
+    top:10px;
+    left:15px;
+    height:60px;
+    width:auto;
+}
+.menu-bar {
+    position: fixed;
+    right: 5px;
+    top:0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(247,37,133,1) 33%, rgba(198,0,161,1) 100%);
+    margin: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .5);
+}
+
+.menu-bar .line{
+    width: 25px;
+    height: 2px;
+    margin: 3px;
+    background: #ebebeb;
+    transition: all 300ms ease-out;
+}
+
+.nav-bar .nav-items{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(247,37,133,1) 33%, rgba(198,0,161,1) 100%);
+    clip-path: circle(30px at 93% 8%);
+    transition: all 800ms ease-out;
+    opacity: 0;
+    z-index: 4;
+}
+
+.nav-bar .nav-items .nav-links{
+    color: #ebebeb;
+    font-size: 18px;
+    margin: 16px 0;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.nav-bar .nav-items :hover{
+    color:white;
+    font-size:22px;
+    transition: 0.1s;
+}
+
+.nav-bar.toggle .nav-items{
+    clip-path: circle(100%);
+    opacity: 1;
+}
+
+.nav-bar.toggle .menu-bar{
+    box-shadow: none;
+}
+
+.nav-bar.toggle .menu-bar .line:nth-child(1){
+    transform: rotate(-45deg);
+    margin: 0;
+}
+
+.nav-bar.toggle .menu-bar .line:nth-child(3){
+    opacity: 0;
+}
+
+.nav-bar.toggle .menu-bar .line:nth-child(2){
+    transform: rotateZ(45deg);
+    margin: -2px;
+}
+
+.title {
+    height: 100%;
+    transform: translate(0%, 45%);
+}
+
+
+/******************************************************************************************************/
+/*************************************************JOIN THE TEAM*********************************************/
+/******************************************************************************************************/
+
+
+
+#typedtext {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    color:White;
+    font-size:50px; 
+    left:5%;
+    position:absolute;
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+}
+
+#abouttext {
+  font-family: 'Waiting for the Sunrise', cursive; 
+    color:White;
+    width:35%;
+    margin-top:10%;
+    left:55%;
+    position:absolute;
+    font-size:20px; 
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    background-color: black;
+}
+
+
+/************************************************************************************************/
+/**************************************SCROLL***************************************************/
+/************************************************************************************************/
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+
+
+
+.scroll {
+	width: 60px;
+	height: 60px;
+    top:75%;
+	border: 2px solid #333;
+	border-radius: 50%;
+	position: absolute;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+}
+.scroll::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 2px solid rgb(189, 189, 189);
+  	    border-bottom: 2px solid rgb(189, 189, 189);
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+
+
+/************************************************************************************************/
+/**************************************option 1***************************************************/
+/************************************************************************************************/
+
+
+
+#mediatext1 {
+    font-family: 'Waiting for the Sunrise', cursive; 
+    color:White;
+    width:40%;
+    margin-top:10%;
+    left:5%;
+    top:100%;
+    position:absolute;
+    font-size:20px; 
+    margin: 10px 50px; 
+    letter-spacing: 3px; 
+    background-color: black;
+}
+
+#mediatext2 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:white;
+    width:40%;
+    margin-top:10%;
+    left:55%;
+    top:100%;
+    position:absolute;
+    font-size:15px; 
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    background-color: black;
+}
+
+
+/************************************************************************************************/
+/**************************************option 2***************************************************/
+/************************************************************************************************/
+
+
+
+#webtext1 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:white;
+    width:40%;
+    top:100%;
+    transform: translatey(500px) ;
+    left:5%;
+    position:absolute;
+    font-size:15px; 
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    background-color: black;
+}
+
+#webtext2 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    color:White;
+    width:40%;
+    margin-top:10%;
+    left:55%;
+    top:100%;
+    transform: translatey(500px) ;
+    position:absolute;
+    font-size:20px; 
+    margin: 10px 50px; 
+    letter-spacing: 3px; 
+    background-color: black;
+}
+
+
+/**************************************************************************************************/
+/**********************************BUTTONS*********************************************************/
+/**************************************************************************************************/
+
+.buttons{
+    position:absolute;
+    transform: translateY(50px);
+    left:20.5%;
+}
+
+.ghost-button{
+    padding: 8px;
+    width:200px;
+    position:absolute;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    font-family: Sans-serif;
+    outline: none;
+    text-decoration: none;
+    z-index:3;
+    margin-left:10px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #fff;
+    color: #5500AE;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+.ghost-button-1{
+    padding: 8px;
+    width:200px;
+    position:absolute;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    font-family: Sans-serif;
+    outline: none;
+    text-decoration: none;
+    z-index:3;
+    margin-left:10px;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+.ghost-button-1:hover,
+.ghost-button-1:active {
+    background-color: #fff;
+    color: #5500AE;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
